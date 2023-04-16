@@ -15,8 +15,18 @@ In this project, we tried to focus on the factors that can affect or decide the 
 - 2. What's the relationship between Country and Salary
 - 3. What's the factor is the most important features that decide salary
 
-## File Descriptions
-There is only one notbooks in the repository. It show all the results and analysis process. Feel free to run and repeat the analysis!
+## Gather Data and Asses Data
+- The data is from Stack Overflow, it can be download form [here](https://www.kaggle.com/stackoverflow/so-survey-2017/data)
+- Then we use pandas to read the csv file, we see there are 12891 samples, and 21107 features. And in this dataset, it has nan values and catergorical and numeric values.
+- There is only one notbooks in the repository. It show all the results and analysis process. Feel free to run and repeat the analysis!
+
+## Prepare Data
+- we basically clean the data by remove nan values in the Salary column, since it's the property that we are interested.
+- Secondly, we change catergorical features to numeric by using 'get_dummies' function in pandas
+
+## Modeling
+- We firstly split data to training set and testing set, and then use training set to train the linear model by using scikit learn library.
+- Once we trained the model, we can use the model to predict values in testing set, and evaluate model by showing R2
 
 ## Results
 The main results are summarized in the post of medium, please find it [here](https://medium.com/@hliu56buffalo/analysis-for-stack-overflow-salary-2017-data-dcf6b46707e9).
