@@ -19,7 +19,7 @@ In this project, we tried to focus on the factors that can affect or decide the 
 There is only one notbooks in the repository. It show all the results and analysis process. Feel free to run and repeat the analysis!
 
 ## Results
-The main results are summarized in the post of medium, please find it [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
+The main results are summarized in the post of medium, please find it [here](https://medium.com/@hliu56buffalo/analysis-for-stack-overflow-salary-2017-data-dcf6b46707e9).
 
 ## Licensing, Authors, and Acknowledgements
 This repository is on MIT license. We thank StackOverflow providing this data set. You can find the data in [here](https://www.kaggle.com/stackoverflow/so-survey-2017/data).
