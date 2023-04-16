@@ -11,7 +11,7 @@ This repository is just show the analysis for StackOverflow data for 2017. Users
 
 ## Project Motivation
 In this project, we tried to focus on the factors that can affect or decide the salary, which people care more about. Thus we ask these 3 questions after observing the data.
-- 1. What's the relationship between Professional and Salary
+- 1. What's the relationship between EmploymentStatus and Salary
 - 2. What's the relationship between Country and Salary
 - 3. What's the factor is the most important features that decide salary
 
